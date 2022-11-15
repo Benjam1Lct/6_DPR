@@ -9,3 +9,6 @@ def taille(x) :
         n += 1
     
     return n
+
+def Karatsuba(x, y, n):
+    return
