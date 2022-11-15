@@ -1,3 +1,4 @@
+from random import randint
 def taille(x) :
     """
     Renvoie le nombre de chiffres de x en base 2
@@ -5,9 +6,6 @@ def taille(x) :
     n = 1
     while x > 0:
         x //= 2
-        n = 1
+        n += 1
     
     return n
-
-
-
