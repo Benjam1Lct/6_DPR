@@ -12,4 +12,7 @@ def taille(x) :
 
 def Karatsuba(x, y, n):
     return
-;
+
+def mult(x,y):
+    pass
+
